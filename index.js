@@ -7,6 +7,7 @@ function fetchBooks() {
   }).then((data) => {
     console.log(data);
     renderBooks(data);
+    return data;
   });
 };
 
